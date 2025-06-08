@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Jogo de Adivinhação</h1>
+        <p id="texto">Adivinhe o número secreto, entre 1 e 100. Receba dicas de "maior" ou "menor" a cada tentativa até acertar ou atingir o limite de jogadas.</p>
+        
+        <label for="valor">Dê seu palpite:</label>
+        <input type="number"id="valor">
+        
+        <button onclick="sortear()" id="chute">Chutar</button>
+        
+        <p id="resultado"></p>
+        <p id="tentativas"></p>
+    </main>
+</body>
+</html>
